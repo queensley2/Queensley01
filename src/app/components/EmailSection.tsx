@@ -65,6 +65,19 @@ const EmailSection = () => {
               alt="Linkedin Icon"
             />
           </Link>
+          <Link
+            href="https://wa.me/+2348068642246"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 transition-opacity"
+          >
+            <Image
+              src="/whatsapp-icon.svg"
+              width={50}
+              height={50}
+              alt="Whatsapp Icon"
+            />{" "}
+          </Link>
         </div>
       </div>
       <div>
