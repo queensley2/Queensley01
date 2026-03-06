@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Food wagon website",
+    description:
+      "This is a food wagon website built with Next.js and Tailwind CSS. The idea behind this website is to give user easy access to communicate with the food wagon and also order food online.",
+    image: "/images/projects/foodwagon.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://food-wagon-tawny.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Gym website",
     description:
       "This is a gym website built with HTML, CSS and JavaScript. the idea behind this website is to give user easy access to communicate with the gym and also working out from home.",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://pgc-gywebsite.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Gadget website",
     description:
       "This is a platform created to sell and swap gadgets of various brands.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://www.swapconnect.africa/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Church website",
     description:
       "This is created with Next.js to give more visibility to a church fellowship, making it easier for members to download recorded sermons, make donations, and as well as get first hand informations and announcements. ",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "https://rcf-ikole.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Delivery website",
     description:
       "This is a platform created to help with the delivery of foods for restaurants and customers.",
@@ -45,7 +55,6 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "https://deliver-x2.netlify.app/",
   },
-  
 ];
 
 const ProjectsSection = () => {
