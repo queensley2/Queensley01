@@ -51,6 +51,14 @@ const Footer = () => {
                   alt="Whatsapp Icon"
                 />{" "}
               </Link>
+              <Link
+                href="https://x.com/TechQ75457"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <Image src="/x-icon.svg" width={40} height={40} alt="X Icon" />
+              </Link>
             </div>
           </div>
 
