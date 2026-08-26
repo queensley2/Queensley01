@@ -16,6 +16,9 @@ const TAB_DATA = [
         <li className="hover:text-white transition-colors duration-200">Tailwindcss</li>
         <li className="hover:text-white transition-colors duration-200">JavaScript</li>
         <li className="hover:text-white transition-colors duration-200">React</li>
+                <li className="hover:text-white transition-colors duration-200">React Native</li>
+        <li className="hover:text-white transition-colors duration-200">Flutter Dart</li>
+
       </ul>
     ),
   },
